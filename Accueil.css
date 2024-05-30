@@ -1,0 +1,345 @@
+body {
+    background: url('img/travel-photo.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    float: left;
+
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.recherche {
+    margin-bottom: 20px;
+}
+
+/* Bouton Inscription, Connection */
+.bouton a {
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+.bouton {
+    margin-right: 50px;
+    float: right;
+}
+
+.BoutonInscrire a,
+.BoutonConnecter a {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: auto;
+    float: left;
+    width: 150px;
+    height: 30px;
+    padding: 0 10px;
+}
+
+.BoutonInscrire a {
+    margin-bottom: 10px;
+}
+
+.BoutonInscrire:hover {
+    background-color: #04AA6D;
+}
+
+
+/* CSS Diapo */
+/* CSS Diapo */
+.mySlides {
+    display: none;
+
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 650px;
+    position: relative;
+    margin: auto;
+}
+
+/* Bouton Next */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Bouton Suivant */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Fin CSS Diapo */
+/* Fin CSS Diapo */
+
+
+/* Caption text */
+.text {
+    color: #18f0ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+
+.Search {
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.Search,
+.bouton {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(92, 13, 102);
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+
+}
+
+.SearchTravel {
+    margin-right: 450px;
+    margin-left: 450px;
+    margin-top: 100px;
+    background-color: rgb(218, 224, 122);
+    background: transparent;
+}
+
+.TypeVacance,
+.Destination,
+.DateDepart,
+.DateFin,
+.Prix,
+.Search2 {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.Destination {
+    margin-left: 350px;
+}
+
+.TypeVacance {
+    border-right: 1px solid #199bd7;
+
+}
+
+button {
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    width: 120px;
+}
+
+input[type=text] {
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    text-align: center;
+}
+
+input[type=date] {
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    width: 120px;
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    cursor: wait;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.Offre {
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    height: auto;
+    background-color: rgb(95, 104, 231);
+    color: #ffffff;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 27px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+th {
+    border: 1px solid rgb(200, 255, 0);
+    padding: 10px;
+
+}
+
+caption {
+    color: black;
+    background-color: rgb(0, 221, 66);
+    font-weight: bold;
+}
+
+.premier {
+    background-image: url(img/sky.jpg);
+    font-size: 30px;
+    color: #ff00ff;
+    text-align: center;
+    padding: 30px;
+}
+
+.deuxieme {
+    height: 100%;
+    background-color: #ff00ff;
+
+}
+
+.CGV,
+.MentionsLégales,
+.PolitiqueConf {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.CGV a,
+.MentionsLégales a,
+.PolitiqueConf a {
+    text-decoration: none;
+}
+
+.CGV {
+    border: #444244 solid 1px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 3px;
+}
+
+.CGV:hover {
+    background-color: #7be9c0;
+}
+
+.MentionsLégales {
+    border: #444244 solid 1px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 3px;
+}
+
+.MentionsLégales:hover {
+    background-color: #7be9c0;
+}
+
+.PolitiqueConf {
+    border: #444244 solid 1px;
+    text-align: center;
+    padding: 3px;
+}
+
+.PolitiqueConf:hover {
+    background-color: #7be9c0;
+}
+
+.footer {
+    width: 600px;
+    height: 55px;
+    background-color: white;
+    border: #444244 solid 1px;
+    border-top: 5px solid #6f6f6f;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
